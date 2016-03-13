@@ -1,7 +1,9 @@
 target
 lib_managed
 bin
+build
 .settings
 .cache-main
 .classpath
 .project
+.gradle
