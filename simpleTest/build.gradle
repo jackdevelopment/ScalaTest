@@ -1,0 +1,22 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+
+repositories {
+   mavenCentral()
+}
+sourceSets {
+  main {
+     scala {
+        srcDirs = ['src/scala']
+     }
+  }
+  test {
+     scala {
+        srcDirs = ['test/scala']
+     }
+  }
+}
+
+dependencies {
+   compile 'org.scala-lang:scala-library:2.10.4'
+}
